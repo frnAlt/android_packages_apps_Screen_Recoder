@@ -1,0 +1,13 @@
+android_app_import {
+	name: "MiuiScreenRecorder",
+	owner: "xiaomi",
+	apk: "prebuilt/screen_recoder.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	preprocessed: true,
+	privileged: false,
+	product_specific: true,
+	skip_preprocessed_apk_checks: true,
+}
